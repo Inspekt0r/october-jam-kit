@@ -1,0 +1,17 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uilds/
+/BuildWork/
+/JamKit-Source.zip
+/.tools/
+/.env
+/.env.*
+/.vs/
+*.csproj
+*.sln
+*.slnx
+*.log
+*.tmp

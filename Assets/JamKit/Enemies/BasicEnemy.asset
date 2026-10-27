@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab12127f735436b47b20820fc5f15566, type: 3}
+  m_Name: BasicEnemy
+  m_EditorClassIdentifier: Assembly-CSharp::JamKit.EnemyDefinition
+  maxHealth: 3
+  patrolSpeed: 1.5
+  chaseSpeed: 2.5
+  patrolDistance: 3
+  detectionRange: 5
+  loseSightDelay: 1.2
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  damage: 1
+  attackReach: 1.1
+  attackHeight: 1.25
+  windup: 0.45
+  activeTime: 0.15
+  recovery: 0.7
+  idleSprite: {fileID: 0}
+  walkSprite: {fileID: 0}
+  windupSprite: {fileID: 0}
+  attackSprite: {fileID: 0}
+  deathSprite: {fileID: 0}
+  useStateTint: 1
+  controller: {fileID: 9100000, guid: eddf48bb8460c6e49a0cdcc08c6fad52, type: 2}
+  idleState: Idle
+  walkState: Walk
+  windupState: Windup
+  attackState: Attack
+  recoveryState: Recovery
+  deathState: Death
+  hurtState: Hurt
+  deathDuration: 0.8
+  hurtDuration: 0.35
+  flashOnHurt: 1
+  hurtBlinkInterval: 0.06
+  footstepSound: {fileID: 0}
+  alertSound: {fileID: 0}
+  windupSound: {fileID: 0}
+  attackSound: {fileID: 0}
+  hurtSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  volume: 0.8
+  footstepInterval: 0.4
